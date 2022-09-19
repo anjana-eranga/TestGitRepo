@@ -119,6 +119,17 @@ public class merchantApp_testNG {
 	
 	
 	
+	@Test(priority=7)
+	public void passTest1() {
+		
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS) ;		
+		Assert.assertEquals("12345", "12345");
+		
+		
+	}
+	
+	
+	
 	@AfterTest
 	public void teardownTest() {
 		

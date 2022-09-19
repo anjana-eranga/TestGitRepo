@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-19T13:18:17 IST" name="Suite1" finished-at="2022-09-19T13:18:44 IST" duration-ms="26512">
+  <suite started-at="2022-09-19T13:31:17 IST" name="Suite1" finished-at="2022-09-19T13:31:47 IST" duration-ms="30252">
     <groups>
     </groups>
-    <test started-at="2022-09-19T13:18:17 IST" name="Test1" finished-at="2022-09-19T13:18:44 IST" duration-ms="26512">
+    <test started-at="2022-09-19T13:31:17 IST" name="Test1" finished-at="2022-09-19T13:31:47 IST" duration-ms="30252">
       <class name="appiumtests.merchantApp_testNG">
-        <test-method is-config="true" signature="merchantAppDirectOrder()[pri:0, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:17 IST" name="merchantAppDirectOrder" finished-at="2022-09-19T13:18:25 IST" duration-ms="7384" status="PASS">
+        <test-method is-config="true" signature="merchantAppDirectOrder()[pri:0, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:17 IST" name="merchantAppDirectOrder" finished-at="2022-09-19T13:31:22 IST" duration-ms="5428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- merchantAppDirectOrder -->
-        <test-method signature="email()[pri:1, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:25 IST" name="email" finished-at="2022-09-19T13:18:35 IST" duration-ms="10059" status="PASS">
+        <test-method signature="email()[pri:1, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:23 IST" name="email" finished-at="2022-09-19T13:31:32 IST" duration-ms="9760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- email -->
-        <test-method signature="clickNextEmail()[pri:2, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:35 IST" name="clickNextEmail" finished-at="2022-09-19T13:18:35 IST" duration-ms="484" status="PASS">
+        <test-method signature="clickNextEmail()[pri:2, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:32 IST" name="clickNextEmail" finished-at="2022-09-19T13:31:33 IST" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickNextEmail -->
-        <test-method signature="enterPassword()[pri:3, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:35 IST" name="enterPassword" finished-at="2022-09-19T13:18:44 IST" duration-ms="8473" status="PASS">
+        <test-method signature="enterPassword()[pri:3, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:33 IST" name="enterPassword" finished-at="2022-09-19T13:31:47 IST" duration-ms="14154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPassword -->
-        <test-method signature="failTest1()[pri:4, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:44 IST" name="failTest1" finished-at="2022-09-19T13:18:44 IST" duration-ms="19" status="FAIL">
+        <test-method signature="failTest1()[pri:4, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:47 IST" name="failTest1" finished-at="2022-09-19T13:31:47 IST" duration-ms="22" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1234] but found [123]]]>
@@ -75,7 +75,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest1 -->
-        <test-method signature="failTest2()[pri:5, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:44 IST" name="failTest2" finished-at="2022-09-19T13:18:44 IST" duration-ms="10" status="FAIL">
+        <test-method signature="failTest2()[pri:5, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:47 IST" name="failTest2" finished-at="2022-09-19T13:31:47 IST" duration-ms="11" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [12345] but found [1234]]]>
@@ -127,7 +127,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest2 -->
-        <test-method signature="failTest3()[pri:6, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:44 IST" name="failTest3" finished-at="2022-09-19T13:18:44 IST" duration-ms="9" status="FAIL">
+        <test-method signature="failTest3()[pri:6, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:47 IST" name="failTest3" finished-at="2022-09-19T13:31:47 IST" duration-ms="11" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [12345] but found [1234aa]]]>
@@ -179,11 +179,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest3 -->
-        <test-method signature="failTest5()[pri:6, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:44 IST" name="failTest5" finished-at="2022-09-19T13:18:44 IST" duration-ms="12" status="PASS">
+        <test-method signature="failTest5()[pri:6, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:47 IST" name="failTest5" finished-at="2022-09-19T13:31:47 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest5 -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:18:44 IST" name="teardownTest" finished-at="2022-09-19T13:18:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:appiumtests.merchantApp_testNG@470f1802]" started-at="2022-09-19T13:31:47 IST" name="teardownTest" finished-at="2022-09-19T13:31:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
