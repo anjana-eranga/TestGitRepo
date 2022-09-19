@@ -127,7 +127,7 @@ public class merchantApp_testNG {
 		//driver.quit();
 		System.out.println("TestNG is okay");
 		System.out.println("my 2nd commit heree....");
-		
+		System.out.println("my 2nd commit heree....");
 	}
 	
 	
